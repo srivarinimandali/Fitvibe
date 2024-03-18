@@ -1,0 +1,54 @@
+.userForm {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+    div {
+      margin-bottom: 10px;
+    }
+  
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+  
+    input,
+    select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  
+    button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+
+  .uuidDisplay {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+  
+    strong {
+      font-weight: bold;
+    }
+    span{
+        font-weight: bold;
+    }
+  }
+  

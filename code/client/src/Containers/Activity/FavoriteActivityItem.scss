@@ -1,0 +1,14 @@
+.activity-img-container{
+    padding-left: 30px;
+
+}
+
+.image-item{
+    box-shadow: 4px 4px 4px 2px rgb(202, 85, 85);
+    border-radius: 10px;
+    
+    &:hover{
+        cursor: pointer;
+        
+    }
+}
